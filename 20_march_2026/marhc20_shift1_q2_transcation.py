@@ -38,25 +38,3 @@ Sample Output 1:
 Rahul Priya 500 50
 """
 
-import sys
-
-def solve():
-    # Read raw standard input from the NQT compiler
-    input_data = sys.stdin.read().split()
-    
-    if not input_data:
-        return
-        
-    n = int(input_data[0])
-    idx = 1
-    
-    # -----------------------------------------
-    # WRITE YOUR NQT LOGIC BELOW THIS LINE
-    # Hint: Use a dictionary where the key is "Sender_Receiver_Amount"
-    # and the value is the Timestamp.
-    # -----------------------------------------
-    
-    
-
-if __name__ == '__main__':
-    solve()
